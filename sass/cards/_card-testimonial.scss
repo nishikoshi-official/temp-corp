@@ -1,6 +1,7 @@
 .fh5co-testimonial-style-1,
 .fh5co-testimonial-style-2 {
 	padding: 5em 0;
+	border-top: 1px solid #e1e1e1;
 	@media screen and (max-width :$screen-sm) {
 		padding: 3em 0;
 	}
@@ -16,7 +17,7 @@
 			border-left: none;
 			padding: 40px;
 			background: $brand-white;
-			
+
 			position: relative;
 			@include border-radius(4px);
 			&:after {
@@ -25,9 +26,9 @@
 			   top: 100%;
 			   left: 40px;
 			   border-top: 15px solid black;
-			   border-top-color: $brand-white; 
+			   border-top-color: $brand-white;
 			   border-left: 15px solid transparent;
-			   border-right: 15px solid transparent; 
+			   border-right: 15px solid transparent;
 			}
 			.quote {
 				position: absolute;
@@ -83,7 +84,7 @@
 			}
 			.fh5co-meta {
 				float: left;
-				margin-top: 15px;	
+				margin-top: 15px;
 				h3 {
 					margin-bottom: 0;
 					font-weight: bold;

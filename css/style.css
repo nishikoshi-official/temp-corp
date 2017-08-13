@@ -74,6 +74,11 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+.divider-w {
+  border-top: 1px solid #e1e1e1;
+  margin: 0;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
