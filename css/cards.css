@@ -1862,7 +1862,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-features-style-1 .fh5co-heading,
 .fh5co-features-style-5 .fh5co-heading {
-  color: #19254b;
+  color: #19254b !important;
 }
 .fh5co-features-style-1 h3,
 .fh5co-features-style-5 h3 {
@@ -1873,11 +1873,11 @@ a:hover .lnk-icon-right {
 }
 .fh5co-features-style-1 h3,
 .fh5co-features-style-5 h3 {
-  color: #19254b;
+  color: #19254b !important;
 }
 .fh5co-features-style-1 p,
 .fh5co-features-style-5 p {
-  color: #19254b;
+  color: #19254b !important;
 }
 .fh5co-features-style-1 .fh5co-features,
 .fh5co-features-style-5 .fh5co-features {
