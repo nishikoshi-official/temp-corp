@@ -7,7 +7,7 @@
 }
 
 .fh5co-testimonial-style-1 {
-	background: lighten($brand-black, 95%);
+	background: lighten(#19254b !important, 95%);
 	.box-testimony {
 		margin-bottom: 2em;
 		float: left;
@@ -41,7 +41,7 @@
 				width: 56px;
 				height: 56px;
 				margin-top: -30px;
-				background: lighten($brand-black, 95%);
+				background: lighten(#19254b !important, 95%);
 				@include border-radius(50%);
 				> span {
 					display: table-cell;
@@ -54,13 +54,13 @@
 		}
 		.author {
 			// line-height: 20px;
-			color: lighten($brand-black, 50%);
+			color: lighten(#19254b !important, 50%);
 			// font-size: 20px;
 			margin-left: 20px;
 			font-size: $font-size-base - 1;
 			.subtext {
 				display: block;
-				color: lighten($brand-black, 80%);
+				color: lighten(#19254b !important, 80%);
 				font-size: 16px;
 			}
 		}
@@ -93,7 +93,7 @@
 					font-weight: bold;
 					text-transform: uppercase;
 					letter-spacing: 2px;
-					color: lighten($brand-black, 80%);
+					color: lighten(#19254b !important, 80%);
 					font-size: 11px!important;
 				}
 			}

@@ -74,7 +74,7 @@
 }
 
 .fh5co-team-style-2 {
-	background: lighten($brand-black, 98%);
+	background: lighten(#19254b !important, 98%);
 	.fh5co-person {
 		background: $brand-white;
 		text-align: center;
@@ -97,7 +97,7 @@
 				margin-bottom: 0;
 			}
 			.fh5co-meta {
-				color: lighten($brand-black,70%)!important;
+				color: lighten(#19254b !important,70%)!important;
 				font-family: $font-tertiary;
 				font-size: 12px;
 				text-transform: uppercase;
@@ -122,7 +122,7 @@
 			list-style: none;
 			@include inline-block;
 			a {
-				color: lighten($brand-black, 50%);
+				color: lighten(#19254b !important, 50%);
 				font-size: $font-size-base + 2;
 				padding-left: 10px;
 				padding-right: 10px;
@@ -154,7 +154,7 @@
 			text-transform: uppercase;
 			margin-bottom: 30px;
 			letter-spacing: 2px;
-			color: lighten($brand-black,70%);
+			color: lighten(#19254b !important,70%);
 			font-family: $font-tertiary;
 			font-size: 12px;
 		}
@@ -171,7 +171,7 @@
 					font-size: 18px;
 					padding-left: 10px;
 					padding-right: 10px;
-					color: lighten($brand-black, 50%);
+					color: lighten(#19254b !important, 50%);
 					&:hover {
 						color: $brand-primary;
 					}

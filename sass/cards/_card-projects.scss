@@ -85,7 +85,7 @@
 					display: block;
 			
 					.fh5co-overlay {
-						background: $brand-black;
+						background: #19254b !important;
 						position: absolute;
 						top: 0;
 						left: 0;
@@ -218,13 +218,13 @@
 		margin-bottom: 20px;
 	}
 	.fh5co-meta {
-		color: lighten($brand-black, 70%);
+		color: lighten(#19254b !important, 70%);
 		margin-bottom: 3em;
 	}
 	.fh5co-checklist {
 		padding-top: 4em;
 		h3 {
-			color: $brand-black;
+			color: #19254b !important;
 			font-size: $font-size-base;
 			margin-bottom: 20px;
 		}
@@ -241,7 +241,7 @@
 	.fh5co-share {
 		padding-top: 4em;
 		h3 {
-			color: $brand-black;
+			color: #19254b !important;
 			font-size: $font-size-base;
 			margin-bottom: 20px;
 		}
@@ -270,7 +270,7 @@
 		.fh5co-all {
 			a {
 				font-size: $font-size-base + 4;
-				color: $brand-black;
+				color: #19254b !important;
 				&:hover {
 					color: $brand-primary;
 				}
@@ -280,7 +280,7 @@
 }
 
 .fh5co-project-style-5 {
-	background: lighten($brand-black, 97%);
+	background: lighten(#19254b !important, 97%);
 	.fh5co-project-item {
 		float: left;
 		width: 100%;

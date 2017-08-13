@@ -53,7 +53,7 @@
 					font-family: $font-primary;
 					text-transform: uppercase;
 					color: $brand-white;
-					border: 1px solid lighten($brand-black, 95%);
+					border: 1px solid lighten(#19254b !important, 95%);
 					margin: 0 4px 4px 0;
 					@include border-radius(30px);
 					@include inline-block;
@@ -76,7 +76,7 @@
 				font-weight: 700;
 				a {
 					
-					color: $brand-black;
+					color: #19254b !important;
 					&:hover {
 						color: $brand-primary;
 					}
@@ -88,14 +88,14 @@
 			p {
 				font-size: 14px;
 				margin-bottom: 0;
-				color: lighten($brand-black, 65%);
+				color: lighten(#19254b !important, 65%);
 				&:last-child {
 					margin-bottom: 0!important;
 				}
 			}
 		}
 		.fh5co-post-meta {
-			border-top: 1px solid lighten($brand-black, 94%);
+			border-top: 1px solid lighten(#19254b !important, 94%);
 			padding: 10px 20px;
 			font-family: $font-primary;
 			font-family: 'Arial', sans-serif;
@@ -104,7 +104,7 @@
 				font-size: 13px;
 				margin-right: 10px;
 				margin-bottom: 20px;
-				color: lighten($brand-black, 70%);
+				color: lighten(#19254b !important, 70%);
 				i {
 					display: inline-block;
 					margin-right: 5px;
@@ -113,7 +113,7 @@
 					text-decoration: none;
 				}
 				&:hover {
-					color: $brand-black;
+					color: #19254b !important;
 				}
 			}
 		}
@@ -122,7 +122,7 @@
 }
 
 .fh5co-blog-style-2 {
-	background: lighten($brand-black, 97%);
+	background: lighten(#19254b !important, 97%);
 	padding: 5em 0;
 	// background: $brand-white;
 	@media screen and (max-width: $screen-sm) {
@@ -146,10 +146,10 @@
 			}
 		}
 		p {
-			color: lighten($brand-black, 50%);
+			color: lighten(#19254b !important, 50%);
 		}
 		.fh5co-meta {
-			color: lighten($brand-black, 70%);
+			color: lighten(#19254b !important, 70%);
 			text-transform: uppercase;
 			font-size: $font-size-base - 3;
 			letter-spacing: 2px;

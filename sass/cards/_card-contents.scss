@@ -109,7 +109,7 @@
 			margin: 0 0 10px 0;
 			list-style: none;
 			a {
-				color: lighten($brand-black, 65%);
+				color: lighten(#19254b !important, 65%);
 				position: relative;
 				&:before {
 					content: "";
@@ -120,19 +120,19 @@
 					top: 50%;
 					margin-top: -4px;
 					margin-left: -17px;
-					background: lighten($brand-black, 90%);
+					background: lighten(#19254b !important, 90%);
 					@include border-radius(50%);
 					@include fh5co-transition(.5s);
 				}
 				&:hover, &:active, &:focus {
-					color: lighten($brand-black, 10%);	
+					color: lighten(#19254b !important, 10%);	
 					&:before {
 						background: $brand-primary;
 					}
 				}
 			}
 			&.label {
-				color: lighten($brand-black, 80%);
+				color: lighten(#19254b !important, 80%);
 				font-weight: 400;
 				text-transform: uppercase;
 				letter-spacing: 2px;
@@ -142,7 +142,7 @@
 			}
 			&.active {
 				a {
-					color: lighten($brand-black, 10%);	
+					color: lighten(#19254b !important, 10%);	
 					&:before {
 						content: "";
 						position: absolute;
@@ -189,7 +189,7 @@
 	}
 }
 .fh5co-content-style-5 {
-	background: lighten($brand-black, 97%);
+	background: lighten(#19254b !important, 97%);
 	.fh5co-content-item {
 		float: left;
 		width: 100%;
@@ -278,7 +278,7 @@
 	}
 }
 .fh5co-content-style-6, .fh5co-content-style-7 {
-	background: lighten($brand-black, 97%);
+	background: lighten(#19254b !important, 97%);
 	.link-block {
 		figure {
 			overflow: hidden;
@@ -293,10 +293,10 @@
 			font-weight: 400;
 		}
 		p {
-			color: lighten($brand-black, 50%);
+			color: lighten(#19254b !important, 50%);
 		}
 		.fh5co-meta {
-			color: lighten($brand-black, 70%);
+			color: lighten(#19254b !important, 70%);
 			text-transform: uppercase;
 			font-size: $font-size-base - 3;
 			letter-spacing: 2px;
@@ -323,12 +323,12 @@
 	}
 }
 .fh5co-content-style-9 {
-	background: lighten($brand-black, 97%);
+	background: lighten(#19254b !important, 97%);
 	.btn-actions {
 		.or {
 			padding-left: 10px;
 			padding-right: 10px;
-			color: lighten($brand-black, 70%);
+			color: lighten(#19254b !important, 70%);
 			@include inline-block;
 			@media screen and (max-width: $screen-xs) {
 				display: block;

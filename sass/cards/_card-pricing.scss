@@ -20,7 +20,7 @@
 			line-height: 16px;
 			font-family: $font-primary;
 			font-weight: 400;
-			color: lighten($brand-black, 50%);
+			color: lighten(#19254b !important, 50%);
 		}
 	}
 	
@@ -36,7 +36,7 @@
 
 	.fh5co-pricing-item {
 		display: block;
-		color: lighten($brand-black, 20%);
+		color: lighten(#19254b !important, 20%);
 		float: left;
 		width: 100%;
 		text-align: center;
@@ -66,7 +66,7 @@
 		}
 		.fh5co-pricing-item-text {
 			font-size: $font-size-base;
-			color: lighten($brand-black, 65%);
+			color: lighten(#19254b !important, 65%);
 		}
 		
 		&:hover, &.active {
@@ -158,7 +158,7 @@
 		font-size: $font-size-base;
 		display: inline-block;
 		padding: 0 0 0 0.5em;
-		color: lighten($brand-black, 80%);
+		color: lighten(#19254b !important, 80%);
 	}
 
 	.pricing-sentence {
@@ -166,7 +166,7 @@
 		padding: 0 0 0.5em;
 		font-size: $font-size-base;
 		text-align: center;
-		color: lighten($brand-black, 60%);
+		color: lighten(#19254b !important, 60%);
 	}
 
 	.pricing-feature-list {

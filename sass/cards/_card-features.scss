@@ -16,7 +16,7 @@
 	background-position: center center;
 	position: relative;
 	> .fh5co-overlay {
-		background: rgba(0,0,0,.5);
+		background: #fff;
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -43,7 +43,7 @@
 	.fh5co-features {
 		width: 100%;
 		@include flex;
-		@include flexwrap;		
+		@include flexwrap;
 
 		padding-left: 15px;
 		padding-right: 15px;
@@ -101,7 +101,7 @@
 	position: relative;
 	background-position: left top;
 	> .fh5co-overlay {
-		background: rgba(0,0,0,.6);
+		background: #fff !important;
 	}
 }
 .fh5co-features-style-2 {
@@ -129,7 +129,7 @@
 }
 
 .fh5co-features-style-3 {
-	background: lighten($brand-black, 98%);
+	background: lighten(#19254b !important, 98%);
 	.box {
 		padding: 30px;
 		background: $brand-white;
@@ -195,7 +195,7 @@
 			padding: 0;
 			font-weight: 400;
 			font-size: 20px;
-			color: $brand-black;
+			color: #19254b !important;
 		}
 	}
 }
@@ -235,12 +235,12 @@
 			float: left;
 			padding: 20px;
 			.fh5co-feature-title {
-		
+
 				margin: 0 0 20px 0;
 				padding: 0 0 10px 0;
 				font-weight: 400;
 				font-size: 20px;
-				color: $brand-black;
+				color: #19254b !important;
 				position: relative;
 				.fh5co-border {
 					position: absolute;
@@ -296,7 +296,7 @@
 			}
 		}
 	}
-	
+
 	.icon {
 		color: $brand-success!important;
 		border: 1px solid rgba(255,255,255,.1);

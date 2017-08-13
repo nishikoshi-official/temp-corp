@@ -317,7 +317,7 @@
 					color: rgba(255,255,255,.5);
 					font-weight: 400;
 					@media screen and (max-width: $screen-sm) {
-						color: lighten($brand-black, 15%);
+						color: lighten(#19254b !important, 15%);
 					}
 					font-family: $font-primary;
 					font-size: $font-size-base - 2;
@@ -376,7 +376,7 @@
 			@include border-radius(4px);
 			@media screen and (max-width: $screen-sm) {
 				background: rgba(0,0,0,.1);
-				color: lighten($brand-black, 15%)!important;
+				color: lighten(#19254b !important, 15%)!important;
 			}
 		}
 		img {

@@ -20,7 +20,7 @@
 		position: relative;
 		> .fh5co-overlay {
 			position: absolute;
-			background: $brand-black;
+			background: #19254b !important;
 			opacity: .45;
 			top: 0;
 			left: 0;
@@ -99,7 +99,7 @@
 				padding: 15px 15px;
 				background: rgba(0, 0, 0, .07);
 				font-size: 40px;
-				color: lighten($brand-black, 30%);
+				color: lighten(#19254b !important, 30%);
 				font-weight: 700;
 				@include inline-block;
 				@include border-radius(4px);
@@ -116,7 +116,7 @@
 			font-family: $font-primary;
 		}
 		p {
-			color: lighten($brand-black, 70%);
+			color: lighten(#19254b !important, 70%);
 			font-size: $font-size-base - 1;
 			font-weight: 40;
 			font-family: $font-secondary;
@@ -133,7 +133,7 @@
 				font-family: $font-secondary;
 				a {
 					font-size: $font-size-base - 2;
-					color: lighten($brand-black, 50%);
+					color: lighten(#19254b !important, 50%);
 					&:hover {
 						text-decoration: none;
 						color: $brand-primary;
@@ -151,7 +151,7 @@
 				margin-right: 15px;
 				margin-bottom: 10px;
 				font-size: 20px;
-				color: lighten($brand-black, 20%);
+				color: lighten(#19254b !important, 20%);
 				&:hover {
 					text-decoration: none;
 					color: $brand-primary;
@@ -231,7 +231,7 @@
 }
 
 .fh5co-footer-style-3 {
-	background: lighten($brand-black, 15%);
+	background: lighten(#19254b !important, 15%);
 	font-size: $font-size-base - 1;
 	.fh5co-footer-widget {
 		margin-bottom: 30px;
